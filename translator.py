@@ -1,10 +1,10 @@
 def translate(spider):
-  azar = " "
+  translation = " "
   for letter in spider:
     if letter in "aeiouAEIOU":
-      azar = azar + "g"
+      translation = translation + "g"
     else:
-      azar = azar + letter
-  return azar
+      translation = translation + letter
+  return translation
 
 print(translate(input("plx enter  :")))
