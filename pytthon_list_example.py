@@ -1,4 +1,4 @@
-spider = ["virat","rohit","rahul" ,"dhawan"]
+cricket = ["virat","rohit","rahul" ,"dhawan"]
 
-for players in spider:
-    print(" {} is the best player" .format(spider))
+for players in cricket:
+    print(" {} is the best player" .format(cricket))
